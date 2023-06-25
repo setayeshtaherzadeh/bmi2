@@ -1,0 +1,88 @@
+body 
+{
+
+}
+
+/* .main{
+width: 50px;
+height: 500px;
+border: 2px;
+} */
+.title{
+color: aliceblue;
+}
+#boo{
+    /* background:#5fc1da; */
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50% , -50%);
+}
+#divbmi{
+background: #272B2C;
+width: 100%;
+height: 100px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+display:block;
+}
+#divbmi2{
+background: #272B2C;
+width: 100%;
+height: 300px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+ display: grid;
+place-items: center; 
+}
+
+
+#bee{
+    /* background: #9e48a1; */
+    width: 50%;
+    height: 100%;
+     /* display: grid;
+    place-items: center;   */
+}
+
+
+#weight,#height{
+color: aliceblue;
+margin:30px 0px 0px 0px;
+}
+
+#bttn{
+margin:10px 0px 0px 0px ;
+}
+
+.input,.btn{
+width: 100%;
+height: 20%; 
+    
+   
+}
+#lbl{
+    margin-left: 20px;
+    margin-top: 5px;
+}  
+
+     #result {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight:bold;
+        color: #2c3e50;
+      }
+      .underweight {
+        background-color: #f1c40f;
+      }
+      .normal {
+        background-color: #2ecc71;
+      }
+      .overweight {
+        background-color: #f39c4d;
+      }
+      .obese {
+        background-color: #e74c3c;
+      }
